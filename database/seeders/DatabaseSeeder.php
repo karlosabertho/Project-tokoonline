@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
             'role' => '1',
             'status' => 1,
             'hp' => '089693612443',
-            'password' => bcrypt('P@55word'),
+            'password' => bcrypt('19230259'),
         ]);
         #untuk record berikutnya silahkan, beri nilai berbeda pada nilai: nama, email, hp dengan nilai masing-masing anggota kelompok
         User::create([
